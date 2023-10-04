@@ -23,7 +23,6 @@
         <li><a href="#api">API</a></li>
       </ul>
     </li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -64,7 +63,7 @@ A REST API service in Golang that handles authorization and authentication for a
 	
 * In the root folder run
 	```sh
-	cd backend; go run cmd/main.go
+	go run cmd/main.go
 	```
 	
 ### Testing
@@ -73,7 +72,7 @@ Unit tests have been written for all the handlers. Use a different database to r
 * Fill out the `.env.testing` file
 * In the root folder run
 	```sh
-	cd backend; go test ./...
+	go test ./...
 	```
 ## Design
 ### Database 
@@ -96,5 +95,3 @@ In the assignment, each of the organizations have their own schemas with isolate
 ### API
 Postman spec for the API can be found [here](https://www.postman.com/rafikun/workspace/public/collection/18135506-6b30d9b6-7133-4fa4-a0fa-0fde1462a312?action=share&creator=18135506)
 
-## Contact
-Abdullah Rafi - abdullahrafi.1308@gmail.com
