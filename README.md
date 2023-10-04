@@ -28,7 +28,7 @@
 </details>
 
 ## About the Project
-A REST API for an Authorization+Authentication service in Golang built for the Houseware Backend Octernship Assignment
+A REST API service in Golang that handles authorization and authentication for a multi tenant web app using JWT
 
 ### Built With
 
